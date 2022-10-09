@@ -6,9 +6,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #060b25;
     background: #212;
     color: #fff;
+    /* Remover */
+    margin-bottom: 500px;
 }
 
 ul {
@@ -23,12 +24,23 @@ button {
     cursor: pointer;
 }
 
-img {
-    display: block;
+.img-perfil {
     max-width: 100%;
-    height: auto;
+    display: block;
 }
 
-.img {
-    width: 360px;
+.subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: capitalize;
+        max-width: initial;
+    }
 }
