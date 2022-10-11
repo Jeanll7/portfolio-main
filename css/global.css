@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: #212;
     color: #fff;
-    /* Remover */
-    margin-bottom: 500px;
 }
 
 ul {
@@ -27,6 +29,13 @@ button {
 .img-perfil {
     max-width: 100%;
     display: block;
+    border-radius: 4px;
+}
+
+.introducao .img {
+    width: 350px;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
 
 .subtitulo {
@@ -41,6 +50,9 @@ button {
     .subtitulo {
         font-size: 3rem;
         text-transform: capitalize;
-        max-width: initial;
+        max-width: initial !important;
+    }
+    .introducao .img {
+        width: 250px;
     }
 }
