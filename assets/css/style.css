@@ -2,3 +2,9 @@ body {
     background: #122;
     color: #fbfbee;
 }
+
+.header img {
+    width: 160px;
+    border: 1px solid #70e;
+    border-radius: 50%;
+}

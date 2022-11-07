@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Break Point */
+
+
+/* @media (max-width: 760) {
+    .acordeon {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+} */
