@@ -1,10 +1,6 @@
-body {
-    background: #202023;
-    color: #fbfbee;
-}
-
 .header img {
     width: 140px;
     border: 1px solid #70e;
+    border: 1px solid #222;
     border-radius: 50%;
 }

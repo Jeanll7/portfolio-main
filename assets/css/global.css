@@ -6,15 +6,51 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: #fbfbee;
+}
+
+.container {
+    margin: 1rem auto;
+}
+
+.main {
+    padding: 1rem;
+    border: 2px solid #122;
+    border: 1px solid #fff;
+    border-radius: .5rem;
 }
 
 
 /* Break Point */
 
-
-/* @media (max-width: 760) {
-    .acordeon {
-        display: grid;
-        grid-template-columns: 1fr;
+@media (max-width: 800px) {
+    body {
+        margin: 1rem auto;
+        width: 90%;
     }
-} */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    /* text-decoration: underline; */
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
