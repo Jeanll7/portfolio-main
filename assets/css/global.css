@@ -24,8 +24,7 @@ img {
 .main {
     padding: 1rem;
     margin-top: 2rem;
-    border: 2px solid #222;
-    /* border: 1px solid #fff; */
+    border: 1px solid #ccc;
     border-radius: .5rem;
 }
 
