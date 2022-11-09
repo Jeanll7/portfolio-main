@@ -10,12 +10,20 @@ body {
     color: #fbfbee;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    /* height: auto; */
+}
+
 .container {
     margin: 1rem auto;
+    max-width: 800px;
 }
 
 .main {
     padding: 1rem;
+    margin-top: 2rem;
     border: 2px solid #122;
     border: 1px solid #fff;
     border-radius: .5rem;
@@ -26,8 +34,11 @@ body {
 
 @media (max-width: 800px) {
     body {
-        margin: 1rem auto;
+        margin: 1rem;
         width: 90%;
+    }
+    .main {
+        margin-top: .5rem;
     }
 }
 
@@ -46,10 +57,4 @@ a:hover {
 
 button {
     cursor: pointer;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
