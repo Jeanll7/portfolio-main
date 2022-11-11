@@ -18,7 +18,7 @@ img {
 
 .container {
     margin: 1rem auto;
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .main {
@@ -38,7 +38,7 @@ img {
         max-height: 100vh;
     }
     .main {
-        margin-top: .5rem;
+        margin-top: 1rem auto;
     }
 }
 
