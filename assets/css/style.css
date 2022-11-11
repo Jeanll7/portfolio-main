@@ -1,27 +1,9 @@
 /* HEADER  */
 
-
-/* .header {
-    display: flex;
-    align-items: center;
-}
-
-.header .title {
-    font-size: 2rem;
-    text-align: center;
-    color: #c5bebe;
-} */
-
 .header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.img .infomation {
-    grid-area: 'img' 'information';
-    display: grid;
-    align-items: start;
 }
 
 .header img {
@@ -183,7 +165,7 @@
 
 .acordeon .trigger::after {
     content: '';
-    /* display: inline-block; */
+    display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
     background-repeat: no-repeat;
