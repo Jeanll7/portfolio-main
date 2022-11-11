@@ -1,35 +1,42 @@
 /* HEADER  */
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.header img {
-    width: 160px;
-    border: 1px solid #171619;
-    border-radius: 50%;
-    margin: 1rem 0 1.5rem;
+/* .header {
+    display: flex;
+    align-items: center;
 }
 
 .header .title {
     font-size: 2rem;
     text-align: center;
     color: #c5bebe;
+} */
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.infomation {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.img .infomation {
+    grid-area: 'img' 'information';
+    display: grid;
+    align-items: start;
+}
+
+.header img {
+    width: 150px;
+    display: block;
+    border: 1px solid #171619;
+    border-radius: 50%;
+    margin: 1rem 0 1.5rem;
 }
 
 .information p {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     align-items: flex-start;
-    margin: 1rem;
+    margin: .6rem;
 }
 
 .information p::before {
@@ -48,7 +55,7 @@
 }
 
 .information .job::before {
-    background-image: url('/assets/img/icons/job.svg');
+    background-image: url('/assets/img/icons/githubico.svg');
 }
 
 .information .location::before {
@@ -61,6 +68,14 @@
 
 .information .phone::before {
     background-image: url('/assets/img/icons/phone.svg');
+}
+
+@media (max-width: 800px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -130,7 +145,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: .5rem;
-    background-image: url('/assets/img/github.svg');
+    background-image: url('/assets/img/icons/github.svg');
 }
 
 
