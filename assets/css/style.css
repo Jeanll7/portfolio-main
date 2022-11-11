@@ -235,15 +235,6 @@
     flex-direction: column;
 }
 
-
-/* .skills .tools ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-} */
-
 .skills img {
     max-width: 45px;
     margin: .5rem;
