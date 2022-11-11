@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: "img " "information"; */
 }
 
 .header img {
@@ -66,11 +64,36 @@
 }
 
 
-/* EDUCATION */
+/* FORMATION */
 
-.education {
+.formation {
     display: flex;
     flex-direction: column;
+}
+
+.formation li {
+    margin-bottom: 1rem;
+}
+
+.formation li p {
+    margin-top: 2px;
+}
+
+.formation li .period {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formation li .period::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    background-image: url('/assets/img/period.svg');
 }
 
 
