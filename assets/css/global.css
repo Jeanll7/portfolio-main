@@ -22,10 +22,12 @@ img {
 }
 
 .main {
-    padding: 1rem;
+    padding: 2rem;
+    padding: 1.5rem;
     margin-top: 2rem;
     border: 1px solid #ccc;
     border-radius: .5rem;
+    max-height: 100vh;
 }
 
 
@@ -39,6 +41,7 @@ img {
     }
     .main {
         margin-top: auto;
+        padding: 1rem;
     }
 }
 
