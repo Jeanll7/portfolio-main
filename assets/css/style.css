@@ -37,6 +37,10 @@
     font-size: 1.125rem;
 }
 
+.information .location::before {
+    margin-left: .1rem;
+}
+
 .information a {
     color: #fff;
 }
@@ -51,10 +55,6 @@
 
 .information .email::before {
     background-image: url('/assets/img/icons/email.svg');
-}
-
-.information .phone::before {
-    background-image: url('/assets/img/icons/phone.svg');
 }
 
 @media (max-width: 800px) {
