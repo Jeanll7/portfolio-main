@@ -154,6 +154,17 @@
     margin-bottom: .4rem;
 }
 
+.portfolio li .title.web::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    background-image: url('/assets/img/icons/web.svg');
+}
+
 .portfolio li .title.github::before {
     content: '';
     display: inline-block;
