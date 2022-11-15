@@ -59,7 +59,7 @@
 
 .typewriter {
     color: #e2e2e2 !important;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .typewriter::after {
