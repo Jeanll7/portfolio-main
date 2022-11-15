@@ -57,15 +57,11 @@
     background-image: url('/assets/img/icons/email.svg');
 }
 
-.typewriter {
-    color: #e2e2e2 !important;
-    /* font-weight: 700; */
-}
-
 .typewriter::after {
     content: '|';
-    opacity: 1;
+    /* opacity: 1; */
     margin-left: 5px;
+    color: #ddd;
     display: inline-block;
     animation: blink .7s infinite;
 }

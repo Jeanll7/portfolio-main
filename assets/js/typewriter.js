@@ -1,16 +1,5 @@
-// const title = document.querySelector('.typewriter');
-// typeWriter(title);
-
-// function typeWriter(el) {
-//     const textArray = el.innerHTML.split('');
-//     el.innerHTML = '';
-//     for (let i = 0; i < textArray.length; i++) {
-//         setTimeout(() => el.innerHTML += textArray[i], 110 * i);
-//     }
-// }
-
 class TypeWriter {
-    constructor(txtElement, words, wait = 3000) {
+    constructor(txtElement, words, wait = 1000) {
         this.txtElement = txtElement;
         this.words = words;
         this.txt = '';
@@ -39,7 +28,7 @@ class TypeWriter {
         this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
         // Initial Type Speed
-        let typeSpeed = 180;
+        let typeSpeed = 120;
 
         if (this.isDeleting) {
             typeSpeed /= 2;
