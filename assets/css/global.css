@@ -21,7 +21,6 @@ img {
 }
 
 .main {
-    padding: 2rem;
     padding: 1.5rem;
     margin-top: 2rem;
     border: 1px solid #ccc;
@@ -39,6 +38,17 @@ img {
     .main {
         margin-top: auto;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        background: red;
+        background-image: url(/assets/img/whatsapp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+        position: relative;
     }
 }
 
