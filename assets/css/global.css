@@ -42,13 +42,10 @@ img {
 }
 
 
-/* @media (max-width: 500px) {
+/* @media (max-width: 600px) {
     .main {
-        background-image: url(/assets/img/whatsapp.jpg);
-        background-repeat: no-repeat;
+        background: url(/assets/img/background.jpg) no-repeat center center fixed;
         background-size: cover;
-        vertical-align: middle;
-        position: relative;
     }
 } */
 
