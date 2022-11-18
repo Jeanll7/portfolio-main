@@ -41,8 +41,9 @@
     margin-left: .1rem;
 }
 
-.information a {
-    color: #fff;
+.job a {
+    color: #84e;
+    font-weight: bold;
 }
 
 .information .job::before {
