@@ -19,6 +19,12 @@
     margin-top: 1.4rem;
 }
 
+.information .title {
+    justify-content: center;
+    display: flex;
+    margin-right: 1rem;
+}
+
 .information p {
     display: flex;
     flex-direction: row;
@@ -88,8 +94,7 @@
         margin: auto;
     }
     .information .title {
-        justify-content: center;
-        display: flex;
+        margin: 0;
     }
 }
 
