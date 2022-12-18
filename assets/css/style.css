@@ -1,5 +1,3 @@
-/* HEADER  */
-
 .header {
     display: flex;
     justify-content: center;
@@ -48,7 +46,6 @@
 }
 
 .job a {
-    /* color: #84e; */
     color: #fff;
     font-weight: bold;
 }
@@ -67,7 +64,7 @@
 
 .typewriter::after {
     content: '|';
-    /* opacity: 1; */
+    opacity: 1;
     margin-left: 5px;
     color: #ddd;
     display: inline-block;
