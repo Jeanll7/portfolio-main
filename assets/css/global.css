@@ -8,7 +8,6 @@ body {
     background: #000;
     color: #fff;
     margin-top: 2.5rem !important;
-    /* letter-spacing: 0.4px; */
 }
 
 img {
@@ -28,6 +27,10 @@ img {
     border: 1px solid #ccc;
     border-radius: .5rem;
     background: linear-gradient(135deg, #111, #133);
+}
+
+.main h2 {
+    letter-spacing: 0.0563rem;
 }
 
 
