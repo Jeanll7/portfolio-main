@@ -8,7 +8,7 @@ body {
     background: #000;
     color: #fff;
     margin-top: 2.5rem !important;
-    /* letter-spacing: .4px; */
+    /* letter-spacing: 0.4px; */
 }
 
 img {
@@ -27,7 +27,7 @@ img {
     margin-top: 2rem;
     border: 1px solid #ccc;
     border-radius: .5rem;
-    background: linear-gradient(135deg, #211, #003153);
+    background: linear-gradient(135deg, #111, #133);
 }
 
 
