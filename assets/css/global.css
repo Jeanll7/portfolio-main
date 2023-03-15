@@ -81,7 +81,7 @@ a {
         justify-content: center;
         place-items: center;
         animation: animation 2s ease alternate infinite;
-        background: linear-gradient(-80deg, #26264be8, #0d0511, #288), no-repeat;
+        background: linear-gradient(-80deg, #26264be8, #1111, #423434), no-repeat;
         background-size: 300% 300%;
         margin-top: 1.6rem;
     }
