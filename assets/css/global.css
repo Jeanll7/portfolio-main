@@ -59,8 +59,7 @@ a {
     }
 }
 
-
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         margin: 1rem !important;
         width: 90%;
@@ -69,27 +68,5 @@ a {
         background: url(/assets/img/background.jpg) no-repeat center center fixed;
         background-size: cover;
         margin-top: 1.6rem;
-    }
-} */
-
-@media (max-width: 600px) {
-    body {
-        width: 90%;
-    }
-    .main {
-        justify-content: center;
-        place-items: center;
-        animation: animation 2s ease alternate infinite;
-        background: linear-gradient(-80deg, #26264be8, #1111, #423434), no-repeat;
-        background-size: 300% 300%;
-        margin-top: 1.7rem;
-    }
-    @keyframes animation {
-        from {
-            background-position: 0 50%;
-        }
-        to {
-            background-position: 100% 50%;
-        }
     }
 }
