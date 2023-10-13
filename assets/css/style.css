@@ -9,12 +9,12 @@
   width: 160px;
   border: 1px solid #171619;
   border-radius: 50%;
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 0 0.6rem;
 }
 
 .information {
   display: block;
-  margin-top: 1.4rem;
+  /* margin-top: 1.4rem; */
 }
 
 .information .title {
@@ -86,6 +86,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 18px;
   }
   .information {
     margin: auto;
@@ -185,7 +186,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem auto;
   border: 1px solid #fff;
   border-radius: 0.5rem;
 }
@@ -266,5 +267,8 @@
   .skills ul li {
     margin-left: 0.4rem;
     padding: 0.4rem;
+  }
+  .acordeon {
+    margin-top: 1.1rem;
   }
 }
